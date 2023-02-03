@@ -13,8 +13,8 @@
     'use strict';
 
     // Your code here...
-    setTimeout( () => {
+    setInterval( () => {
         let p = document.querySelector("[aria-label$='pts']");
         p.style.backgroundColor = '#f0f0f0';}
-                , 5000);
+                , 2000);
 })();
